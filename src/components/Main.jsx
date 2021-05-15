@@ -28,7 +28,7 @@ const Main = (props) => {
     setCurrentLetter(e.target.innerHTML);
   };
 
-  // win lose scenario
+  // win lose scenario hello
   switch (win) {
     case false:
       alert("You Lose");
