@@ -30,5 +30,5 @@ var dispLet = letters.map((e, i) => {
     }
   });
   ```
-  I was proud of this one at the time...
+  My first real use of map(). I was amazed
   
