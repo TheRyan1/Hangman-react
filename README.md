@@ -6,4 +6,29 @@ This was my first ReactJS project when I decided to take the React plunge. Simpl
 ## Technologies used
 ReactJS. 
 
-
+## Featured Code
+```Javascript
+var dispLet = letters.map((e, i) => {
+    if (word.includes(e) && correctLetters.includes(e)) {
+      return (
+        <div className="letter Correct" onClick={props.clickFunc} key={i}>
+          {e}
+        </div>
+      );
+    } else if (!word.includes(e) && correctLetters.includes(e)) {
+      return (
+        <div className="letter wrong" onClick={props.clickFunc} key={i}>
+          {e}
+        </div>
+      );
+    } else {
+      return (
+        <div className="letter" onClick={props.clickFunc} key={i}>
+          {e}
+        </div>
+      );
+    }
+  });
+  ```
+  I was proud of this one at the time...
+  
